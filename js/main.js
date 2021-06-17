@@ -134,9 +134,9 @@ function floatingObject(selector, delay, size){
 floatingObject('.floating1', 1, 15);
 floatingObject('.floating2', .5, 15);
 floatingObject('.floating3', 1.5, 20);
-// floatingObject() 함수에 각각에 변수에 밑에 설정한 각각의 값을 대입해서 gsap.to()애니메이션 함수를 실행하는데,
-// 순서는 요소, 시간, 옵션 순으로 설정해주고 그 각각의 값에도 random() 랜덤함수를 참조해서 최소~최대의 소숫점 2자리까지
-// 랜덤 반환값을 출력하면서 대입한 결과를 보여준다는 뜻
+//  floatingObject() 함수에 각각에 변수에 밑에 설정한 각각의 값을 대입해서 gsap.to()애니메이션 함수를 실행하는데,
+//  순서는 요소, 시간, 옵션 순으로 설정해주고 그 각각의 값에도 random() 랜덤함수를 참조해서 최소~최대의 소숫점 2자리까지
+//  랜덤 반환값을 출력하면서 대입한 결과를 보여준다는 뜻
 
 
 const spyEls = document.querySelectorAll('section.scroll-spy')
